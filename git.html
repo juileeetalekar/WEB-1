@@ -3,11 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sample HTML Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style-type: square;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <img src="" alt="img"/>
-   
+    <div class="container">
+        <header>
+            <h1>Welcome to My Sample HTML Document</h1>
+            <p>This document is an example of a more complete HTML page.</p>
+        </header>
+
+        <section>
+            <h2>About This Page</h2>
+            <p>This section contains information about the HTML document.</p>
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>Various HTML elements</li>
+                <li>Examples of styling</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Image Example</h2>
+            <p>Below is an example of an image included in the document:</p>
+            <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+        </section>
+
+        <section>
+            <h2>Link Example</h2>
+            <p>You can visit <a href="https://www.example.com" target="_blank">Example.com</a> for more information.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 My Website. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
